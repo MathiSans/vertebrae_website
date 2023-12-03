@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizzing - Quiz-App</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Quizzing</h1>
+      <p class="header__page-version">v2</p>
+    </header>
+
+    <article class="card__background">
+      <p class="card__question" data-js="card-question"></p>
+      <button
+        class="card__button"
+        type="button"
+        aria-label="click to show answer"
+        data-js="card-button"
+      ></button>
+      <p class="card__answer" data-js="card-answer"></p>
+    </article>
+
+    <nav class="navigation">
+      <img
+        src="./assets/home-icon.svg"
+        class="navigation__home-button"
+        aria-label="go to home page"
+        data-js="home-button"
+      />
+      <img
+        src="./assets/bookmark-icon.svg"
+        class="navigation__bookmark-button"
+        aria-label="go to bookmarks"
+        data-js="bookmark-button"
+      />
+      <img
+        src="./assets/profile-icon.svg"
+        class="navigation__user-button"
+        aria-label="go to user profile page"
+        data-js="profile-button"
+      />
+    </nav>
+    <footer>
+      <img
+        src="./assets/switch-icon.svg"
+        class="navigation__dark-mode-toggle"
+        aria-label="toggle dark mode"
+        data-js="toggle-switch"
+      />
+    </footer>
+  </body>
+</html>
