@@ -1,0 +1,8 @@
+.card {
+  margin-top: 56px;
+  margin-bottom: 85px;
+}
+
+.card__font--italic {
+  font-style: italic;
+}

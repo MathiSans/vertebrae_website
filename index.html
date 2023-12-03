@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizzing - Quiz-App</title>
   </head>
+
   <body>
     <header class="header">
       <h1 class="header__title">Quizzing</h1>
       <p class="header__page-version">v2</p>
     </header>
 
-    <article class="card__background">
-      <p class="card__question" data-js="card-question"></p>
-      <button
-        class="card__button"
-        type="button"
-        aria-label="click to show answer"
-        data-js="card-button"
-      ></button>
-      <p class="card__answer" data-js="card-answer"></p>
-    </article>
+    <main class="card">
+      <article class="card__background">
+        <p class="card__question" data-js="card-question"></p>
+        <button
+          class="card__button"
+          type="button"
+          aria-label="click to show answer"
+          data-js="card-button"
+        ></button>
+        <p class="card__answer" data-js="card-answer"></p>
+      </article>
+    </main>
 
     <nav class="navigation">
       <img
@@ -42,10 +45,10 @@
         data-js="profile-button"
       />
     </nav>
-    <footer>
+    <footer class="footer">
       <img
         src="./assets/switch-icon.svg"
-        class="navigation__dark-mode-toggle"
+        class="footer__darkmode-toggle"
         aria-label="toggle dark mode"
         data-js="toggle-switch"
       />
