@@ -18,5 +18,11 @@ body {
   color: var(--primary);
   background-color: var(--secondary);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
