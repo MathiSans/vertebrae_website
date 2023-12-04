@@ -1,9 +1,13 @@
 :root {
-  --primary: #2a5238;
-  --secondary: #f2ffe8;
-  --card-background: #56a979;
-  --tag-font: #1e8449;
-  --bookmark: #cc2626;
+  --primary: #beeb9f;
+  --secondary: #005244;
+  --card-background: #00b093;
+  --question-box: #c9e5d2;
+  --answer-box: #d7afca;
+  --button: #ffff8d;
+  --card-font: #dcfff9;
+  --tag-font: #005244;
+  --bookmark: #ff6138;
 }
 
 * {
@@ -16,13 +20,29 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
   color: var(--primary);
-  background-color: var(--secondary);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 157, 1) 0%,
+    rgba(121, 189, 143, 1) 100%
+  );
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
-ul {
+body.dark {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+ul,
+li {
   display: flex;
   flex-direction: row;
-  list-style: none;
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
