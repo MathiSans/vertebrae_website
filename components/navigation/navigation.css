@@ -4,6 +4,7 @@
     var(--button),
     rgba(242, 255, 232, 0)
   );
+  /* background-color: #fff; */
   width: 100%;
   padding: 20px;
   position: fixed;
@@ -14,18 +15,21 @@
 }
 
 .navigation__button {
-  background-color: #ff7e5d;
+  background-color: #d7afca;
+
   margin: 0px 30px 0px 30px;
   padding: 10px 10px;
   border-radius: 50%;
   display: flex;
 }
 
-/* .navigation__button--active {
-  background-color: var(--primary);
+.navigation__button--active {
+  background-color: #c9e5d2;
+  margin: 0px 30px 0px 30px;
   padding: 10px 10px;
   border-radius: 50%;
-} */
+  display: flex;
+}
 
 .navigation__darkmode-toggle {
 }

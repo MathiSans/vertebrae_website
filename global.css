@@ -1,12 +1,14 @@
 :root {
   --primary: #beeb9f;
   --secondary: #005244;
-  --card-background: #00b093;
   --question-box: #c9e5d2;
+  --question-box--card: #00725f;
   --answer-box: #d7afca;
-  --button: #ffff8d;
+  --answer-boy--dark: #683357;
+  --answer-button: #ffff8d;
+  --box-shadow--light: #001411;
+  --box-shadow--dark: #ffffb8;
   --card-font: #dcfff9;
-  --tag-font: #005244;
   --bookmark: #ff6138;
 }
 
@@ -25,13 +27,22 @@ body {
     rgba(255, 255, 157, 1) 0%,
     rgba(121, 189, 143, 1) 100%
   );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
 
 body.dark {
-  color: var(--secondary);
-  background-color: var(--primary);
+  background: linear-gradient(
+    0deg,
+    rgba(223, 223, 127, 1) 0%,
+    rgba(0, 82, 68, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 ul,
