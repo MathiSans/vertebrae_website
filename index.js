@@ -81,3 +81,5 @@ function createQuestionCard() {
 }
 
 createQuestionCard();
+createQuestionCard();
+createQuestionCard();
