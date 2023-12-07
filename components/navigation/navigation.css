@@ -1,32 +1,31 @@
 .navigation {
-  background-image: linear-gradient(
-    0deg,
-    var(--button),
-    rgba(242, 255, 232, 0)
-  );
-  /* background-color: #fff; */
+  background-color: rgba(225, 225, 225, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 10px;
   width: 100%;
-  padding: 20px;
   position: fixed;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  backdrop-filter: blur(10px);
 }
 
 .navigation__button {
-  background-color: #d7afca;
-
-  margin: 0px 30px 0px 30px;
+  background-color: #ffff8d;
+  margin: 0px 20px;
   padding: 10px 10px;
-  border-radius: 50%;
+  border-radius: 20%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   display: flex;
 }
 
 .navigation__button--active {
   background-color: #c9e5d2;
   margin: 0px 30px 0px 30px;
-  padding: 10px 10px;
+  padding: 15px 15px;
   border-radius: 50%;
   display: flex;
 }
