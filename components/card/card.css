@@ -1,5 +1,5 @@
 .card__container {
-  margin: 85px 0px 40px 0px;
+  margin: 115px 0px 40px 0px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -27,11 +27,11 @@
   position: relative;
   right: -145px;
   top: -8px;
-  filter: drop-shadow(0px 2px 3px #00211b);
+  filter: drop-shadow(0px 5px 5px rgba(0, 20, 17, 0.5));
 }
 
 .card__bookmark-icon--dark {
-  filter: drop-shadow(0px 2px 3px #525200);
+  filter: drop-shadow(0px 5px 5px rgba(82, 82, 0, 1));
 }
 
 .card__question {

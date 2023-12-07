@@ -5,6 +5,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  z-index: 1;
 }
 
 .header__title {
@@ -20,7 +27,7 @@
 }
 
 .header__title--dark {
-  color: var(--primary);
+  color: var(--question-box);
 }
 
 .header__page-version {
@@ -29,7 +36,8 @@
   font-size: 0.8rem;
   font-weight: 800;
   background-color: #d7afca;
-  background-image: linear-gradient(150deg, #ff6138, rgba(242, 255, 232, 0));
+  background-image: linear-gradient(150deg, #ff8160, rgba(242, 255, 232, 0));
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   padding: 12px 10px;
   align-self: center;
